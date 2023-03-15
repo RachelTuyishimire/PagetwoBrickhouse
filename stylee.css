@@ -1,0 +1,298 @@
+@media (min-width: 400px) and (max-width: 500px) {
+}
+.nav{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 30%;
+
+}
+nav ul li{
+  display:inline-block;
+  padding:10px 10px;
+  font-size: large;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid yellow;
+  background-color: yellow;
+  justify-content: space-between;
+
+}
+#logo{
+  align-items: left;
+  margin-left: 10%;
+}
+#catalog{
+  border:2px;
+  background-color: rgb(209, 212, 0);
+  padding: 9px 7px;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: medium;
+  color:white;
+}
+#input{
+  border: 2px white solid;
+  border-radius: 2px;
+  width: 15%;
+  font-weight: bold;
+}
+#search{
+  margin-left: -35%;
+  margin-top: 2%;
+}
+.icon{
+  color: white;
+font-weight: bold;
+font-size: large;
+}
+#logo{
+  width: 7%;
+  align-items: center;
+  margin-left: 35%;
+ 
+  
+}
+.subhead{
+  background-color: #252525;
+  color: white;
+  
+
+}
+.check{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  /* margin-left: 20px; */
+  
+}
+.inside{
+  border: 2px solid black;
+  width: 15%;
+  margin-top: 2%;
+  margin:2%;
+}
+.imagesone{
+  display: flex;
+  margin-left: -20%;
+  padding-right: 10%;
+  margin-bottom: 40%;
+  padding-top: -50%;
+ 
+}
+.images{
+  display: flex;
+margin-left: 30%;
+margin-top: -70%;
+margin-right: 10%;
+justify-content: space-between ;
+
+}
+#img1{
+  width: 80%;
+}
+#img2{
+  width: 80%;
+    margin-left: 20%;
+    
+}
+#tie{
+margin-left:50%
+
+}
+#at{
+    margin-left: 60%;
+}
+#img3{
+  width: 60%;
+    margin-left: 20%;
+}
+.imagestwo{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: -2%;
+  justify-content: space-between;
+}
+#img4{
+  width: 80%;
+}
+#rep{
+ margin-left:20%;
+ margin-top:-20%;
+}
+#img5{
+  width: 60%;
+    margin-left: 30px;
+}
+#dol{
+    margin-left:40%;
+   
+   }
+#img6{
+  width: 80%;
+    margin-left: 30%;
+}
+#raz{
+    margin-left:50%;
+  
+   }
+.imagesthree{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: -2%;
+  justify-content: space-between;
+}
+#img7{ 
+  width: 80%;
+    margin-left: 50px;
+}
+#man{
+    margin-left:25%;
+  
+   }
+#img8{ 
+  width: 80%;
+    margin-left: 30%;
+}
+#inq{
+    margin-left:50%;
+  
+   }
+#img9{ 
+  width: 80%;
+    margin-left: 60%;
+    margin-top: -2%;
+}
+#obi{
+    margin-left:65%;
+    margin-top:-2%
+  
+   }
+.imagesfour{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: -2%;
+  justify-content: space-between;
+}
+#img10{ 
+  width: 80%;
+    
+}
+#hoth{
+   margin-left:20%
+    
+}
+#img11{
+  width: 70%;
+    margin-left: 50%;
+}
+#fet{
+    margin-left:120px;
+}
+#img12{
+  width: 80%;
+    margin-left: 60%;
+}
+#ambush{
+    margin-left:150px;
+}
+.imagesfive{
+  display: flex;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: -2%;
+  justify-content: space-between;
+}
+#img13{
+  width: 80%;
+}
+#fet{
+    margin-left:120px;
+}
+#just{
+    margin-top: -2%;
+}
+#img14{
+  width: 80%;
+    margin-left: 50%;
+}
+#clone{
+    margin-left:120px;
+}
+#img15{
+  width: 80%;
+    margin-left: 50%;
+}
+#boba{
+    margin-left:120px;
+}
+
+.footer{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: large;
+ 
+  padding-left: 5%;
+  background-color: #26004c;
+  color: white;
+  /* margin-top: 20%; */
+}
+.dot{
+ border-radius: 20px;
+ padding: 7px, 12px;
+ margin-left: 40%;
+
+
+}
+
+#see{
+  margin-left: 40%;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  font-size:medium;
+  width: 15%;
+  height: 10%;
+}
+#one{
+ background-color: yellow;
+ color: white;
+  /* border-radius: 10px yellow solid; */
+
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  nav{ 
+      /* width: 100%; */
+      padding: 0;
+      margin: 0;
+  }
+}
+
+@media all and (max-width:1000px){
+  imageone{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  footer{
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+  }
+  nav{
+width: 100%;
+padding: 0%;
+margin: 0%;
+  }
+   
+}
